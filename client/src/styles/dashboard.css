@@ -229,3 +229,21 @@
 
     border-color: #2563eb;
 }
+
+.analytics-section {
+
+    margin-bottom: 30px;
+}
+
+.chart-card {
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 4px 12px
+        rgba(0,0,0,0.08);
+}
