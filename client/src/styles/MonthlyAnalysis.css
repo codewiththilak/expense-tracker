@@ -1,0 +1,86 @@
+/* =========================
+   Monthly Analysis
+========================= */
+
+.monthly-analysis {
+
+    margin-bottom: 35px;
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.monthly-title {
+
+    margin-bottom: 20px;
+
+    color: #1f2937;
+
+    font-size: 1.5rem;
+}
+
+.month-selector {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+}
+
+.month-selector label {
+
+    font-weight: 600;
+
+    color: #374151;
+}
+
+.month-selector select {
+
+    padding: 10px 15px;
+
+    border: 1px solid #d1d5db;
+
+    border-radius: 8px;
+
+    background: white;
+
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+.month-selector select:focus {
+
+    outline: none;
+
+    border-color: #2563eb;
+}
+
+/* Monthly Cards */
+
+.monthly-cards {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(220px, 1fr)
+        );
+
+    gap: 20px;
+}
+
+.monthly-cards .card {
+
+    margin: 0;
+}
