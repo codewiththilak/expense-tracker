@@ -7,6 +7,7 @@ import SummaryCards from "../components/SummaryCards";
 import TransactionCard from "../components/TransactionCard";
 import TransactionFilters from "../components/TransactionFilters";
 import MonthlyAnalysis from "../components/MonthlyAnalysis";
+import AnalyticsCharts from "../components/AnalyticsCharts"; 
 
 function Dashboard() {
 
@@ -150,6 +151,10 @@ function Dashboard() {
                     transactions={transactions}
                 />
                 
+                <AnalyticsCharts 
+                    transactions = {transactions}
+                />
+
                 <TransactionFilters
 
                     searchTerm={searchTerm}

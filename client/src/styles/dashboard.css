@@ -229,3 +229,39 @@
 
     border-color: #2563eb;
 }
+
+.analytics-section {
+
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.charts-grid {
+
+    display: flex;
+
+    gap: 20px;
+
+    align-items: stretch;
+
+    margin-top: 20px;
+}
+
+.chart-card {
+
+    flex: 1;
+
+    background: white;
+
+    padding: 15px;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 4px 12px rgba(0,0,0,0.08);
+
+    height: 320px;
+}
